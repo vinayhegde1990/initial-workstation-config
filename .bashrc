@@ -23,6 +23,12 @@ function ps-sq-grep() {
 /bin/ps aux | /usr/bin/grep -i $1 | /usr/bin/grep -iv grep
 }
 
+# Deleting leftovers left by brew cask uninstall $PKGNAME - specify in $1
+function delete-cask() {
+cd ~/Library/
+find . -iname *$1* -print0 | xargs -0 rm -vrf
+}
+
 #IP Address functions#
 #--------------------#
 #Free IP finder, use desired subnet as argument to this command, i.e: $1#
