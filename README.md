@@ -26,12 +26,17 @@ Please read the below instructions carefully to maximize the tools in here.
 
 
 ## Who should use it?
-Anyone who uses software such as a **Shell**, a **Terminal Multiplexer** and an **Editor** in their daily development.
+Anyone who uses software such as a 
+1. Shell such as **Bash**, **Zsh**
+2. Terminal Multiplexer such as **Tmux**
+3. Text Editor such as **VIM** on their local / remote machines.
+4. A full fledged Code Editor like **Atom** in their daily development.
 
 
 ## Pre-Requisites
-1. A shell such as Bash, Zsh, Ksh or equivalent.
-2. The VIM Editor
+1. A shell such as Bash, Zsh or equivalent.
+2. VIM Editor
+3. Atom Editor
 3. Tmux
 4. SSH Keys
 5. Git 
@@ -41,10 +46,10 @@ Anyone who uses software such as a **Shell**, a **Terminal Multiplexer** and an 
 ## Getting Ready
 1. If you use a Unix OS such as Ubuntu, Fedora, OpenSUSE, Mac OS X or any of its variants, it will usually have a default shell built-in.
 2. Obtaining VIM is as easy as mentioned in this **[website](https://www.sitepoint.com/getting-started-vim/)**
-3. Tmux can be installed via the document on **[this](https://howchoo.com/g/ytkwotvkztq/using-the-iterm-2-and-tmux-integration)**.
+3. Tmux can be installed via this **[document](https://howchoo.com/g/ytkwotvkztq/using-the-iterm-2-and-tmux-integration)**.
 4. You can follow the steps [**here**](https://www.ssh.com/ssh/keygen/) to generate SSH keys.
-5. As per your OS (*Mac / Linux / Windows*), please follow the required steps to install Git [**here**](https://linode.com/docs/development/version-control/how-to-install-git-on-linux-mac-and-windows/)
-6. Please add your SSH keys (*generated in step 4*) to GitHub following this **[page](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)**
+5. As per your OS (*Mac / Linux / Windows*), please follow these **[steps]**(https://linode.com/docs/development/version-control/how-to-install-git-on-linux-mac-and-windows/) to install Git.
+6. Please add your SSH keys (*generated in step 4*) to GitHub via this **[page](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)**
 
 
 ## How to Use it?
