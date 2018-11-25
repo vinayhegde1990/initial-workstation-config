@@ -44,11 +44,11 @@ Anyone who uses software such as a
 
 
 ## Getting Ready
-1. If you use a Unix OS such as Ubuntu, Fedora, OpenSUSE, Mac OS X or any of its variants, it will usually have a default shell built-in.
+1. If you use a Linux OS such as Ubuntu, Fedora, OpenSUSE among a whole lot of them OR Mac OS X or any of its variants, it will usually have a built-in shell with a terminal application to access it.
 2. Obtaining VIM is as easy as mentioned in this **[website](https://www.sitepoint.com/getting-started-vim/)**
 3. Tmux can be installed via this **[document](https://howchoo.com/g/ytkwotvkztq/using-the-iterm-2-and-tmux-integration)**.
 4. You can follow the steps [**here**](https://www.ssh.com/ssh/keygen/) to generate SSH keys.
-5. As per your OS (*Mac / Linux / Windows*), please follow these **[steps]**(https://linode.com/docs/development/version-control/how-to-install-git-on-linux-mac-and-windows/) to install Git.
+5. As per your OS (*Mac / Linux / Windows*), please follow these **[steps](https://linode.com/docs/development/version-control/how-to-install-git-on-linux-mac-and-windows/)** to install Git.
 6. Please add your SSH keys (*generated in step 4*) to GitHub via this **[page](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)**
 
 
