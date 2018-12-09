@@ -13,7 +13,7 @@ Initial Workstation Config
 - [Contributing](Contributing.md)
 - [References](#references)
     - [Mac OS X](Mac-OS-X.md)
-    - [Linux OS](#Linux-OS.md)
+    - [Linux OS](Linux-OS.md)
 
 ## What is this about?
 This is a Git repository to help you setup your new workstation for commonly used tools and make changes to them as you move ahead, using the power of Git & GitHub. 
