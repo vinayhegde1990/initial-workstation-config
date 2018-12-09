@@ -12,8 +12,8 @@ Initial Workstation Config
     - [TMux Aliases](#using-tmux-aliases)
 - [Contributing](Contributing.md)
 - [References](#references)
-    - [Markdown Table of Contents Generators](#markdown-table-of-contents-generators)
-    - [Recommended plugins for use with MarkdownTOC](#recommended-plugins-for-use-with-markdowntoc)
+    - [Mac OS X](Mac-OS-X.md)
+    - [Linux OS](#Linux-OS.md)
 
 ## What is this about?
 This is a Git repository to help you setup your new workstation for commonly used tools and make changes to them as you move ahead, using the power of Git & GitHub. 
@@ -78,3 +78,6 @@ Anyone who uses software such as a
 1. Copy all the files from the `.tmux/` in the downloaded git repo to your home directory.
 2. If you already have a Tmux process running, you can go into Escape mode by pressing `Esc`, type `:` and then write `source-file :~/.tmux/tmux.conf`
 3. For a new Tmux session, the changes will automatically apply themselves.
+
+## References
+All due credit to each of those individuals who maintain diverse open source tools without which building this project would have been impossible. For quick synopsis, they're classified into categories above. 
