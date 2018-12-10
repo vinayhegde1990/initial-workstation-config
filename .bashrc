@@ -18,8 +18,8 @@ alias disksize='/usr/bin/df -hx tmpfs'
 alias ek='ssh-add -K ~/.ssh/id_ed25519'
 
 #To check processes and exclude grep command
-function ps-sq-grep() {
-/bin/ps aux | /usr/bin/grep -i $1 | /usr/bin/grep -iv grep
+function ps-no-grep() {
+/bin/ps aux | /bin/grep -i '[^]]'$1'' --color
 }
 
 #IP Networking functions#
@@ -88,7 +88,6 @@ sudo /usr/bin/openssl req -noout -modulus -in $1 | /usr/bin/openssl md5
 function check_yaml () {
 for i in `find . -iname "*.yaml"` ;do echo $i ; ruby -e "require 'yaml'; YAML.parse(File.open('$i'))" ;done
 }
-
 
 #Kill unnecessary sshd-connections#
 function fix-ssh-conn () {
