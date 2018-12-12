@@ -33,7 +33,7 @@ Anyone who uses software such as a
 1. Shell such as **Bash**, **Zsh**
 2. Terminal Multiplexer such as **Tmux**
 3. Text Editor such as **VIM** on their local / remote machines.
-4. A full fledged Code Editor like **Atom** in their daily development.
+4. Development tools like **Git**, **Atom** in their daily workflow.
 
 
 ## Pre-Requisites
