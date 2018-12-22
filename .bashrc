@@ -19,7 +19,7 @@ alias ek='ssh-add -K ~/.ssh/id_ed25519'
 
 #To check processes and exclude grep command
 function ps-no-grep() {
-/bin/ps aux | /bin/grep -i '[^]]'$1'' --color
+/bin/ps auxfww | /bin/grep -i '[^]]'$1'' --color
 }
 
 #IP Networking functions#
