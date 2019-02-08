@@ -1,5 +1,3 @@
-# .bashrc
-
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
@@ -20,6 +18,11 @@ alias ek='ssh-add -K ~/.ssh/id_ed25519'
 #To check processes and exclude grep command
 function ps-no-grep() {
 /bin/ps auxfww | /bin/grep -i '[^]]'$1'' --color
+}
+
+# Print ps output and GREP a particular process with headers
+function ps-grep-headers() {
+/bin/ps aux | head -1 && /usr/bin/sudo ps aux | /usr/bin/grep -iE '[^]]'$1'' --color
 }
 
 #IP Networking functions#
@@ -86,7 +89,8 @@ sudo /usr/bin/openssl req -noout -modulus -in $1 | /usr/bin/openssl md5
 
 #YAML Checker#
 function check_yaml () {
-for i in `find . -iname "*.yaml"` ;do echo $i ; ruby -e "require 'yaml'; YAML.parse(File.open('$i'))" ;done
+#for i in `find . -iname "*.yaml"` ;do echo $i ; ruby -e "require 'yaml'; YAML.parse(File.open('$i'))" ;done
+for i in `find . -iname "*.yaml"` ;do echo $i ; yamllint $i ;done
 }
 
 #Kill unnecessary sshd-connections#
@@ -98,6 +102,13 @@ sudo netstat -ntulpa | /usr/bin/grep [s]shd: | awk '{ if ($3 =="0") print $7}' |
 export HISTTIMEFORMAT="|%d.%m.%y %T|"
 export HISTSIZE=999999999
 
+#Git Shortcuts#
+#-------------#
+
+# Setting upstream on creating a new branch in any GIT repo
+function git-new-upstream () {
+git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)
+}
 
 #######################
 # Mac OSX Based Aliases
@@ -105,6 +116,5 @@ export HISTSIZE=999999999
 
 # Deleting leftovers left by brew cask uninstall $PKGNAME - specify in $1#
 function delete-cask() {
-cd ~/Library/
-find . -iname *$1* -print0 | xargs -0 rm -vrf
+/usr/bin/find ~/Library/ -iname *$1* -print0 | xargs -0 rm -vrf
 }
