@@ -99,7 +99,7 @@ sudo netstat -ntulpa | /usr/bin/grep [s]shd: | awk '{ if ($3 =="0") print $7}' |
 }
 
 #User specific shortcuts#
-export HISTTIMEFORMAT="|%d.%m.%y %T|"
+export HISTTIMEFORMAT="%d-%b-%Y %T "
 export HISTSIZE=999999999
 
 #Git Shortcuts#
