@@ -10,7 +10,7 @@ Fedora Workstation **28**
 - [Bash](#Bash)
 
 
-
 ## Bash
 
 1. [Gnome Colours](https://github.com/Mayccoll/Gogh)
+2. [Multi Git Status](https://github.com/fboender/multi-git-status)
