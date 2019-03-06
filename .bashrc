@@ -49,6 +49,11 @@ function count-ip() {
 function dns-simple() {
 /usr/bin/dig +noall +answer $1
 }
+
+#Internet Check
+function internet-check() {
+/sbin/ping 8.8.8.8
+}
 #---------------------#
 
 
@@ -104,10 +109,14 @@ export HISTSIZE=999999999
 
 #Git Shortcuts#
 #-------------#
-
 # Setting upstream on creating a new branch in any GIT repo
 function git-new-upstream () {
 git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)
+}
+
+# Check if branch on local exists on remote, provide branch name as $1
+function git-remote-check () {
+git ls-remote --heads origin $1
 }
 
 #######################
