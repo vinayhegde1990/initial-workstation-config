@@ -119,6 +119,13 @@ function git-remote-check () {
 git ls-remote --heads origin $1
 }
 
+
+#AWS Shortcuts
+#------------#
+function aws-infra-list () {
+/usr/local/bin/aws ec2 describe-instances --filters  "Name=instance-state-name,Values=running" --query 'Reservations[].Instances[].[ [Tags[?Key==`Name`].Value][0][0],PublicIpAddress,State.Name ]' --output table | sort -n | grep -v +
+}
+
 #######################
 # Mac OSX Based Aliases
 #######################
