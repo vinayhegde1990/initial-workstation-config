@@ -126,6 +126,12 @@ function aws-infra-list () {
 /usr/local/bin/aws ec2 describe-instances --filters  "Name=instance-state-name,Values=running" --query 'Reservations[].Instances[].[ [Tags[?Key==`Name`].Value][0][0],PublicIpAddress,State.Name ]' --output table | sort -n | grep -v +
 }
 
+#Docker Shortcuts
+#---------------#
+function dockertags () {
+$(which curl) -sS "https://registry.hub.docker.com/v1/repositories/"$1"/tags" | jq '.[]["name"]' | cut -d'"'| sort -n
+}
+
 #######################
 # Mac OSX Based Aliases
 #######################
