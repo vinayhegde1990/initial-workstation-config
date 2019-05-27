@@ -25,6 +25,11 @@ function ps-grep-headers() {
 /bin/ps aux | head -1 && /usr/bin/sudo ps aux | /usr/bin/grep -iE '[^]]'$1'' --color
 }
 
+# Find file in current DIR by md5sum, use known md5sum as argument to this command, i.e: $1#
+function find-md5sum() {
+/usr/bin/find . -type f | xargs md5sum | grep -v .git | grep $1
+}
+
 #IP Networking functions#
 #-----------------------#
 #Free IP finder, use desired subnet as argument to this command, i.e: $1#
