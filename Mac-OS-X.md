@@ -18,3 +18,7 @@ Mac OS X
 
 1. [Brew -The missing package manager for macOS](https://brew.sh/)
 2. [Homebrew cheatsheet](https://devhints.io/homebrew)
+
+
+## CLI Tools
+1. [Bat - an alternative to cat](https://github.com/sharkdp/bat)
