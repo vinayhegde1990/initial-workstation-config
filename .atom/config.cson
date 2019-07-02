@@ -1,0 +1,49 @@
+"*":
+  "atom-beautify":
+    bash:
+      beautify_on_save: true
+    ruby:
+      beautify_on_save: true
+  "atom-material-ui":
+    colors: {}
+    ui: {}
+  "auto-update-packages":
+    intervalMinutes: 1440
+  core:
+    disabledPackages: [
+      "wrap-guide"
+      "atom-beautify"
+      "sync-settings"
+      "github"
+      "git-diff"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "atom-material-ui"
+      "firewatch-syntax"
+    ]
+  editor:
+    fontSize: 15
+  "exception-reporting":
+    userId: "4ce3927d-7866-413c-ae0c-925d9a288914"
+  "file-icons": {}
+  "git-plus":
+    tags: {}
+  "glacier-dark-ui": {}
+  "gruvbox-plus-syntax":
+    contrast: "Soft"
+  linter: {}
+  "linter-shellcheck":
+    userParameters: "-x"
+  "linter-ui-default":
+    panelHeight: 300
+    showPanel: true
+  rainglow:
+    SelectSyntax: "azure-rainglow-syntax"
+  "sync-settings": {}
+  welcome:
+    showOnStartup: false
+".source.yaml":
+  editor:
+    autoIndentOnPaste: true
+    showIndentGuide: false
