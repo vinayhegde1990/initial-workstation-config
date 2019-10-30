@@ -30,19 +30,19 @@ Please read the below instructions carefully to extract the best result from thi
 
 ## Who should use it?
 Anyone who uses software such as a 
-1. Shell such as **Bash**, **Zsh**
+1. Shell such as **Bash**, **Zsh** via a Terminal App (_Unix Terminal, iTerm2_)
 2. Terminal Multiplexer such as **Tmux**
 3. Text Editor such as **VIM** on their local / remote machines.
-4. Development tools like **Git**, **Atom** in their daily workflow.
+4. Development tools like **Git**, **Atom** or **VS-Code** in their daily workflow.
 
 
 ## Pre-Requisites
 1. A shell such as Bash, Zsh or equivalent.
 2. VIM Editor
-3. Atom Editor
+3. [Atom Editor](https://atom.io) | [VSCode](https://code.visualstudio.com/)
 4. Tmux
 5. SSH Keys
-6. Git 
+6. Git
 7. GitHub Access
 
 
@@ -50,23 +50,22 @@ Anyone who uses software such as a
 1. If you use a Linux OS such as Ubuntu, Fedora, OpenSUSE or any similar ones OR Mac OS X or any of its variants, it will usually have a built-in shell with a terminal application to access it.
 2. Obtaining VIM is as easy as mentioned in this **[website](https://www.sitepoint.com/getting-started-vim/)**
 3. Tmux can be installed via this **[document](https://howchoo.com/g/ytkwotvkztq/using-the-iterm-2-and-tmux-integration)**.
-4. You can follow the steps [**here**](https://www.ssh.com/ssh/keygen/) to generate SSH keys.
+4. You can follow the steps [**here**](https://medium.com/risan/upgrade-your-ssh-key-to-ed25519-c6e8d60d3c54) to generate SSH keys.
 5. As per your OS (*Mac / Linux / Windows*), please follow these **[steps](https://linode.com/docs/development/version-control/how-to-install-git-on-linux-mac-and-windows/)** to install Git.
 6. Please add your SSH keys (*generated in step 4*) to GitHub via this **[page](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)**
 
 ## How to Use it?
 
-1.  Navigate to **repo**
-2.  On a terminal, clone this repo locally using 
+1.  On a terminal, clone this repo locally using 
   `git clone git@github.com:vinayhegde1990/initial-workstation-config.git`
-3.  Change your directory to the downloaded repo
+2.  Change your directory to the downloaded repo
   `cd initial-workstation-config`
 
 
 ## Using Shell Aliases
 1.  Copy all the files from the `.bash_profile .bashrc` in the downloaded git repo  to your home directory.
 2.  Run the `source ~/.bash_profile && source ~/.bashrc` to get the Bash aliases in effect.
-3.  Alternatively, you can also logout of all Shell sessions and re-login to achieve the same.
+3.  Alternatively, you can also close all Shell sessions and restart them to achieve the same.
 
 
 ## Using Vim Aliases
@@ -80,4 +79,4 @@ Anyone who uses software such as a
 3. For a new Tmux session, the changes will automatically apply themselves.
 
 ## References
-All due credit to each of those individuals who maintain diverse open source tools without which building this project would have been impossible. For quick synopsis, they're classified into categories above. 
+Cheers to respective maintainers of cited resources without which creating this repo would've been impossible.
