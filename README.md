@@ -69,8 +69,8 @@ Anyone who uses software such as a
 
 
 ## Using Vim Aliases
-1. Copy all the files from the `.vim/` in the downloaded git repo to your home directory.
-2. If you already have a VIM process running, you can go into Escape mode by pressing `Esc`, type `:` and then write `source:~/.vim/.vimrc`
+1. Copy `.vimrc` from downloaded repo to **$HOME** & ensure `.vim` folder (_with all files_) exists there as well.
+2. If you already have a VIM process running, you can go into Escape mode by pressing `Esc`, type `:` and then write `source:~/.vimrc`
 3. For a new VIM session, the changes will automatically apply themselves.
 
 ## Using Tmux Aliases
