@@ -1,0 +1,10 @@
+awscli
+bash-completion
+docker-completion
+git
+gitup
+gnupg
+ncdu
+nmap
+tcptraceroute
+telnet

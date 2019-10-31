@@ -1,0 +1,13 @@
+ccleaner
+copyq
+docker
+google-chat
+google-chrome
+iterm2
+libreoffice
+numi
+postman
+slack
+typora
+visual-studio-code
+vlc
