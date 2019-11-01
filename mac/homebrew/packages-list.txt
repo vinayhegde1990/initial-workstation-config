@@ -1,5 +1,6 @@
 awscli
 bash-completion
+coreutils
 docker-completion
 git
 gitup
@@ -8,3 +9,4 @@ ncdu
 nmap
 tcptraceroute
 telnet
+wget
