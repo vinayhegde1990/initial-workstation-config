@@ -3,6 +3,7 @@ copyq
 docker
 google-chat
 google-chrome
+google-cloud-sdk
 iterm2
 libreoffice
 numi

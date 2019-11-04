@@ -2,6 +2,7 @@ awscli
 bash-completion
 coreutils
 docker-completion
+docker-compose-completion
 git
 gitup
 gnupg
