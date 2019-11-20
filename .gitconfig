@@ -13,14 +13,14 @@
 
 [color "diff"]
     meta = "#FFD700" #hex code yellow
-    frag = magenta
+    frag = "#DA70D6" #hex code orchid
     old = red bold
-    new = "#32CD32"
+    new = "#32CD32" # hex code limegreen
 
 [color "status"]
     added = yellow
     changed = green
-    untracked = cyan 
-    
+    untracked = cyan
+
 #[gpg]
 #   program = gpg
