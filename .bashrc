@@ -30,6 +30,11 @@ function find-md5sum() {
 /usr/bin/find . -type f | xargs md5sum | grep -v .git | grep $1
 }
 
+# View Only Hidden files in Current Directory
+function view-hidden-files() {
+/bin/ls -dlrth .!(|.)
+}
+
 #IP Networking functions#
 #-----------------------#
 #Free IP finder, use desired subnet as argument to this command, i.e: $1#
