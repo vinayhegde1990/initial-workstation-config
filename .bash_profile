@@ -11,4 +11,7 @@ export CLICOLOR=1
 export TERM=xterm-256color
 
 # 3. Set bash auto-completion in iTerm2
-[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+[ -f $(brew --prefix)/etc/bash_completion ] && . $(brew --prefix)/etc/bash_completion
+
+#4. Setting Locale to EN-US
+export LC_ALL=en_US.UTF-8
