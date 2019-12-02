@@ -1,5 +1,8 @@
+adobe-acrobat-reader
+appcleaner
 ccleaner
 copyq
+dbglass
 docker
 google-chat
 google-chrome
