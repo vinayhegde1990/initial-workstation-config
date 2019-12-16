@@ -6,9 +6,11 @@ docker-compose-completion
 git
 gitup
 gnupg
+htop
 ncdu
 nmap
 oathtool
 tcptraceroute
 telnet
+tmux
 wget
