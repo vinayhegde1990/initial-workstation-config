@@ -10,6 +10,7 @@ google-cloud-sdk
 iterm2
 libreoffice
 numi
+paintbrush
 postman
 slack
 typora
