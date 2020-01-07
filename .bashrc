@@ -15,6 +15,13 @@ alias mv='mv -v'
 alias disksize='/usr/bin/df -hx tmpfs'
 alias ek='ssh-add -K ~/.ssh/id_ed25519'
 
+#Shell History Persistence#
+export HISTCONTROL=ignoreboth:erasedups
+export HISTTIMEFORMAT="%d-%b-%Y %T "
+export HISTFILESIZE=
+export HISTSIZE=
+export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
+
 #To check processes and exclude grep command
 function ps-no-grep() {
 /bin/ps auxfww | /bin/grep -i '[^]]'$1'' --color
@@ -113,9 +120,6 @@ function fix-ssh-conn () {
 sudo netstat -ntulpa | /usr/bin/grep [s]shd: | awk '{ if ($3 =="0") print $7}' | cut -d / -f1 | xargs sudo kill
 }
 
-#User specific shortcuts#
-export HISTTIMEFORMAT="%d-%b-%Y %T "
-export HISTSIZE=999999999
 
 #Git Shortcuts#
 #-------------#
