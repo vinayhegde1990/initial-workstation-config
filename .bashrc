@@ -18,8 +18,8 @@ alias ek='ssh-add -K ~/.ssh/id_ed25519'
 #Shell History Persistence#
 export HISTCONTROL=ignoreboth:erasedups
 export HISTTIMEFORMAT="%d-%b-%Y %T "
-export HISTFILESIZE=
-export HISTSIZE=
+export HISTFILESIZE=1000000000
+export HISTSIZE=1000000000
 export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
 
 #To check processes and exclude grep command
