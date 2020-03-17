@@ -3,6 +3,7 @@ bash-completion
 coreutils
 docker-completion
 docker-compose-completion
+fping
 git
 gitup
 gnupg
