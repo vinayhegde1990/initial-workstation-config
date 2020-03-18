@@ -11,6 +11,7 @@ htop
 ncdu
 nmap
 oathtool
+pwgen
 shellcheck
 tcptraceroute
 telnet
