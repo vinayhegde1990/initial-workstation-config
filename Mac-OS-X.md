@@ -22,3 +22,4 @@ Mac OS X
 
 ## CLI Tools
 1. [Bat - an alternative to cat](https://github.com/sharkdp/bat)
+2. [Update Multiple Git Repos](https://github.com/earwig/git-repo-updater)
