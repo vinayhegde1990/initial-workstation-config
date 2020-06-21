@@ -16,3 +16,4 @@ Fedora Workstation **28**
 2. [Multi Git Status](https://github.com/fboender/multi-git-status)
 3. [Version Manager for Programming Languages](https://asdf-vm.com)
 4. [Bootstrap Dotfiles](https://github.com/anishathalye/dotbot)
+5. [Developer Fonts](https://devfonts.gafi.dev)
