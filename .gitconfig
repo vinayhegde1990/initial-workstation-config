@@ -1,7 +1,6 @@
 [user]
     name = Vinay Hegde
-    email = vinay.hegde@bookmyshow.com
-    #signingkey = D83D0ADE85130D5E
+    email = vinay.hegde@
 
 [commit]
     template = /Users/vinay.hegde/.git-templates/commit-msg-template
@@ -21,6 +20,3 @@
     added = yellow
     changed = green
     untracked = cyan
-
-#[gpg]
-#   program = gpg
