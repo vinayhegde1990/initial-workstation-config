@@ -5,11 +5,13 @@ copyq
 dbglass
 docker
 flash-player
-google-chat
+firefox
 google-chrome
 google-cloud-sdk
 iterm2
 libreoffice
+macpass
+mark-text
 numi
 paintbrush
 postman
