@@ -24,17 +24,17 @@ export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
 
 #To check processes and exclude grep command
 function ps-no-grep() {
-/bin/ps auxfww | /bin/grep -i '[^]]'$1'' --color
+/bin/ps auxfww | /usr/bin/grep -i "[^]]$1" --color
 }
 
 # Print ps output and GREP a particular process with headers
 function ps-grep-headers() {
-/bin/ps aux | head -1 && /usr/bin/sudo ps aux | /usr/bin/grep -iE '[^]]'$1'' --color
+/bin/ps aux | head -1 && /usr/bin/sudo ps aux | /usr/bin/grep -iE "[^]]$1" --color
 }
 
 # Find file in current DIR by md5sum, use known md5sum as argument to this command, i.e: $1#
 function find-md5sum() {
-/usr/bin/find . -type f | xargs md5sum | grep -v .git | grep $1
+/usr/bin/find . -type f | xargs md5sum | grep -v .git | grep "$1"
 }
 
 # View Only Hidden files in Current Directory
@@ -52,7 +52,7 @@ pgrep -i "[c]opyq" | awk '{print $2}' | xargs kill
 #-----------------------#
 #Free IP finder, use desired subnet as argument to this command, i.e: $1#
 function check-free-ips() {
-for i in $(sudo nmap -sP $1 | /usr/bin/grep -i 'Nmap scan report for' | awk '{print $5}') ;do ping -c 1 $i;done | /usr/bin/grep from
+for i in $(sudo nmap -sP "$1" | /usr/bin/grep -i 'Nmap scan report for' | awk '{print $5}') ;do ping -c 1 "$i";done | /usr/bin/grep from
 }
 
 #Find Your Public IP#
@@ -60,12 +60,12 @@ alias public-ip='/usr/bin/curl http://ipinfo.io/ip'
 
 #IP Count#
 function count-ip() {
-/sbin/ifconfig | /usr/bin/egrep -v '(inet6|127)' | grep en1 | awk -F: '{print $2}' | cut -d' ' -f1
+/sbin/ifconfig | /usr/bin/grep -Ev '(inet6|127)' | grep en0 | awk -F: '{print $2}' | cut -d' ' -f1
 }
 
 #DNS Records in a clean Display#
 function dns-simple() {
-/usr/bin/dig +noall +answer $1
+/usr/bin/dig +noall +answer "$1"
 }
 
 #Internet Check
@@ -112,7 +112,7 @@ sudo /usr/bin/openssl req -noout -modulus -in "$1" | /usr/bin/openssl md5
 
 #Kill unnecessary sshd-connections#
 function fix-ssh-conn () {
-sudo netstat -ntulpa | /usr/bin/grep [s]shd: | awk '{ if ($3 =="0") print $7}' | cut -d / -f1 | xargs sudo kill
+sudo netstat -ntulpa | /usr/bin/grep "[s]shd:" | awk '{ if ($3 =="0") print $7}' | cut -d / -f1 | xargs sudo kill
 }
 
 
@@ -125,7 +125,7 @@ git push --set-upstream origin "$(git rev-parse --abbrev-ref HEAD)"
 
 # Check if branch on local exists on remote, provide branch name as $1
 function git-remote-check () {
-git ls-remote --heads origin $1
+git ls-remote --heads origin "$1"
 }
 
 # Git branch on iTerm2 prompt, works ONLY in Git repo folders
@@ -144,7 +144,7 @@ function aws-infra-list () {
 #Docker Shortcuts
 #---------------#
 function dockertags () {
-$(which curl) -sS "https://registry.hub.docker.com/v1/repositories/"$1"/tags" | jq '.[]["name"]' | cut -d'"'| sort -n
+$(which curl) -sS "https://registry.hub.docker.com/v1/repositories/$1/tags" | jq '.[]["name"]' | cut -d'"'| sort -n
 }
 
 #######################
@@ -153,5 +153,5 @@ $(which curl) -sS "https://registry.hub.docker.com/v1/repositories/"$1"/tags" | 
 
 # Deleting leftovers left by brew cask uninstall $PKGNAME - specify in $1#
 function delete-cask() {
-/usr/bin/find ~/Library/ -iname *$1* -print0 | xargs -0 rm -vrf
+/usr/bin/find ~/Library/ -iname "*$1*" -print0 | xargs -0 rm -vrf
 }
