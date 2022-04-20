@@ -1,5 +1,6 @@
 awscli
 bash-completion
+bat
 coreutils
 docker-completion
 docker-compose-completion
