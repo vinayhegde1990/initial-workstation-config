@@ -9,7 +9,7 @@
     "Red Component" : 0.63004138114143959
   },
   "Custom Directory" : "No",
-  "Normal Font" : "Monaco 14",
+  "Normal Font" : "Monaco 15",
   "Bold Color" : {
     "Green Component" : 1,
     "Blue Component" : 1,
@@ -28,7 +28,7 @@
     "Green Component" : 0.35915297269821167
   },
   "Right Option Key Sends" : 0,
-  "Rows" : 25,
+  "Rows" : 1250,
   "Default Bookmark" : "No",
   "Cursor Guide Color" : {
     "Red Component" : 0.70214027166366577,
@@ -80,7 +80,7 @@
     "Red Component" : 0.24182461202144623
   },
   "Only The Default BG Color Uses Transparency" : false,
-  "Columns" : 80,
+  "Columns" : 1250,
   "Idle Code" : 0,
   "Ansi 13 Color" : {
     "Green Component" : 0.3333333432674408,
@@ -278,7 +278,7 @@
   "Blink Allowed" : true,
   "Cursor Type" : 1,
   "Background Image Location" : "",
-  "Blur" : false,
+  "Blur" : true,
   "Badge Color" : {
     "Red Component" : 1,
     "Color Space" : "sRGB",
