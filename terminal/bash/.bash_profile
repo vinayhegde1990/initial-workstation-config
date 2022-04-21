@@ -15,3 +15,6 @@ export TERM=xterm-256color
 
 #4. Setting Locale to EN-US
 export LC_ALL=en_US.UTF-8
+
+#5. Remove "The default interactive shell is now zsh" message in macOS
+export BASH_SILENCE_DEPRECATION_WARNING=1
