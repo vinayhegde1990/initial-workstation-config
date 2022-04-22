@@ -11,6 +11,7 @@ gitup
 gnupg
 htop
 jq
+multi-git-status
 ncdu
 nmap
 oathtool
