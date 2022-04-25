@@ -1,4 +1,5 @@
 awscli
+ansible
 bash-completion
 bat
 coreutils
@@ -20,6 +21,8 @@ shellcheck
 rsync
 tcptraceroute
 telnet
+terraform
+terraform-docs
 tldr
 tmux
 wget
