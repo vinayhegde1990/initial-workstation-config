@@ -147,6 +147,10 @@ function dockertags () {
 $(which curl) -sS "https://registry.hub.docker.com/v1/repositories/$1/tags" | jq '.[]["name"]' | cut -d'"'| sort -n
 }
 
+function docker-inspect-images() {
+$(command -v docker) inspect "$@" --format "{{.RepoTags}} {{.Architecture}}"
+}
+
 #######################
 # Mac OSX Based Aliases
 #######################
@@ -154,4 +158,9 @@ $(which curl) -sS "https://registry.hub.docker.com/v1/repositories/$1/tags" | jq
 # Deleting leftovers left by brew cask uninstall $PKGNAME - specify in $1#
 function delete-cask() {
 /usr/bin/find ~/Library/ -iname "*$1*" -print0 | xargs -0 rm -vrf
+}
+
+# Upgrade all casks
+function upgrade-all-casks() {
+for casks in $(brew list --cask | xargs -n1); do brew upgrade "$casks" --cask ; done
 }
