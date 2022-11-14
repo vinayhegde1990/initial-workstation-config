@@ -2,14 +2,13 @@
 |:-------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|
 | [VSCode-Icons](https://github.com/vscode-icons/vscode-icons)                          |                                                                                     |
 | [Default-Terminal-App](https://stackoverflow.com/a/38494284)                          |                                                                                     |
-| [Bracket-Pair-Colorizer](https://github.com/CoenraadS/BracketPair)                    |                                                                                     |
 | [Filesize](https://marketplace.visualstudio.com/items?itemName=mkxml.vscode-filesize) |                                                                                     |
 | **Themes**                                                                            |                                                                                     |
 | [OneDark-Pro](https://github.com/Binaryify/OneDark-Pro)                               |                                                                                     |
 | [RainGlow](https://github.com/rainglow/vscode)                                        |                                                                                     |
 | **Fonts**                                                                             |                                                                                     |
-| [Fira Code](https://github.com/tonsky/FiraCode)                                       | Good spacing & visuals on Laptop | Monitor                                          |
-| [DejaVuSansMono](https://dejavu-fonts.github.io/Download.html)                        | Renders on Laptop | Monitor                                                         |
+| [Fira Code](https://github.com/tonsky/FiraCode)                                       | Good spacing & visuals on Laptop                                                    |
+| [DejaVuSansMono](https://dejavu-fonts.github.io/Download.html)                        | Renders on Laptop                                                                   |
 | **Code Tools**                                                                        |                                                                                     |
 | [YAML Validator](https://github.com/redhat-developer/vscode-yaml)                     |                                                                                     |
 | [Docker Editor](https://github.com/microsoft/vscode-docker)                           |                                                                                     |
