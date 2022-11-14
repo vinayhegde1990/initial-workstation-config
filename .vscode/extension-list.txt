@@ -1,13 +1,11 @@
 adamwalzer.string-converter
 bierner.markdown-mermaid
 christian-kohler.path-intellisense
-CoenraadS.bracket-pair-colorizer
 eamodio.gitlens
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
 golang.go
 hashicorp.terraform
-HookyQR.beautify
 mkxml.vscode-filesize
 mrmlnc.vscode-duplicate
 ms-azuretools.vscode-docker
