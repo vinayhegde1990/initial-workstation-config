@@ -19,8 +19,8 @@ Initial Workstation Config
 This is a Git repository to help you setup your new workstation for commonly used tools and make changes to them as you move ahead, using the power of Git & GitHub. 
 
 The current steps cover some well known OSes used for development and have been tested on
-1. Mac OS X (**High Sierra: 10.13**)
-2. Ubuntu (**Xenial Xerus: 16.04 LTS**)
+1. Mac OS X (**Monterey: 12.3.1**)
+2. Ubuntu (**Focal Fossa: 20.04 LTS**)
 3. CentOS 7 (**7.5-1804**)
 4. Fedora Workstation **28**
 but it should work seamlessly on any variants lower or higher than the above.
