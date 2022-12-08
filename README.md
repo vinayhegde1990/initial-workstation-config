@@ -1,9 +1,12 @@
+> **Note**:
+> Please read the below instructions carefully to extract the best result from this repo.
+
+
 Initial Workstation Config
 ======================
 
 ## Table of Contents
 - [What is this about?](#what-is-this-about)
-- [Who should use it?](#who-should-use-it)
 - [Pre-requisites](#pre-requisites)
  - [Getting Ready to setup](#getting-ready)
  - [How to use it?](#how-to-use-it)
@@ -25,25 +28,15 @@ The current steps cover some well known OSes used for development and have been 
 4. Fedora Workstation **28**
 but it should work seamlessly on any variants lower or higher than the above.
 
-Please read the below instructions carefully to extract the best result from this repo.
-
-
-## Who should use it?
-Anyone who uses software such as a 
-1. Shell such as **Bash**, **Zsh** via a Terminal App (_Unix Terminal, iTerm2_)
-2. Terminal Multiplexer such as **Tmux**
-3. Text Editor such as **VIM** on their local / remote machines.
-4. Development tools like **Git**, **Atom** or **VS-Code** in their daily workflow.
-
 
 ## Pre-Requisites
-1. A shell such as Bash, Zsh or equivalent.
-2. VIM Editor
-3. [Atom Editor](https://atom.io) | [VSCode](https://code.visualstudio.com/)
-4. Tmux
-5. SSH Keys
-6. Git
-7. GitHub Access
+1. A terminal app like **Linux Terminal**, **iTerm2**, **Tabby**
+2. Any shell like Bash, Zsh, PowerShell or equivalent.
+3. An IDE like [VSCode](https://code.visualstudio.com/) | [Atom Editor](https://atom.io)
+4. SSH Keys
+5. Git
+6. GitHub Access
+7. Tmux
 
 
 ## Getting Ready
