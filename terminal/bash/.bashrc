@@ -12,7 +12,6 @@ alias cp='cp -pvr'
 alias grep='grep -i --color=auto'
 alias rm='rm -v'
 alias mv='mv -v'
-alias disksize='/usr/bin/df -hx tmpfs'
 alias ek='ssh-add -K ~/.ssh/id_ed25519'
 
 #Shell History Persistence#
@@ -56,7 +55,7 @@ for i in $(sudo nmap -sP "$1" | /usr/bin/grep -i 'Nmap scan report for' | awk '{
 }
 
 #Find Your Public IP#
-alias public-ip='/usr/bin/curl http://ipinfo.io/ip'
+alias public-ip='/usr/bin/curl https://ipinfo.io/ip'
 
 #IP Count#
 function count-ip() {
@@ -65,7 +64,7 @@ function count-ip() {
 
 #DNS Records in a clean Display#
 function dns-simple() {
-/usr/bin/dig +noall +answer "$1"
+/usr/bin/dig +noall +answer "$@"
 }
 
 #Internet Check
