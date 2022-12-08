@@ -36,9 +36,22 @@ function find-md5sum() {
 /usr/bin/find . -type f | xargs md5sum | grep -v .git | grep "$1"
 }
 
-# View Only Hidden files in Current Directory
-function view-hidden-files() {
-/bin/ls -dlrth .!(|.)
+# Hidden Files & Folders
+#-----------------------
+
+# View all hidden content
+function view-hidden-all() {
+$(command -v ls) -dlht .*
+}
+
+# View only hidden files
+function view-hidden-files () {
+$(command -v ls) -dlht .* |grep ^-
+} 
+
+# View only hidden folders
+function view-hidden-folders () {
+$(command -v ls) -dlht .* |grep ^d
 }
 
 # Kill CopyQ Clipboard Manager when it goes unresponsive (ONLY when scissor icon doesn't open)
