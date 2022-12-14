@@ -75,9 +75,9 @@ function count-ip() {
 /sbin/ifconfig | /usr/bin/grep -Ev '(inet6|127)' | grep en0 | awk -F: '{print $2}' | cut -d' ' -f1
 }
 
-#DNS Records in a clean Display#
-function dns-simple() {
-/usr/bin/dig +noall +answer "$@"
+#Summarize A records with TTL for multiple domains passed as space-separated arguments
+function dns-list-address-records() {
+for domains in "$@"; do /usr/bin/dig +noall +answer "$domains" | bat -l yaml ; done
 }
 
 #Internet Check
