@@ -97,27 +97,27 @@ echo | openssl s_client -showcerts -servername "$1" -connect "$1":443 2>/dev/nul
 
 #Decode SSL certificate, provide file-name as argument to this command as $1#
 function cert-decoder() {
-sudo /usr/bin/openssl x509 -in "$1" -text -noout | /usr/bin/grep -Eiw '(issuer|not|subject:)'
+/usr/bin/openssl x509 -in "$1" -text -noout | /usr/bin/grep -Eiw '(issuer|not|subject:)'
 }
 
 #Decode CSR, provide file-name as argument to this command as $1#
 function csr-decoder() {
-sudo /usr/bin/openssl req -in "$1" -text -noout | /usr/bin/grep -Eiw 'subject:'
+/usr/bin/openssl req -in "$1" -text -noout | /usr/bin/grep -Eiw 'subject:'
 }
 
-#Find SSL md5sum for SSL certificate via openssl, provide file-name as argument to this command, as $1#
-function ssl-cert-md5() {
-sudo /usr/bin/openssl x509 -noout -modulus -in "$1" | /usr/bin/openssl md5
+#Find SSL sha512sum for SSL certificate via openssl, provide file-name as argument to this command, as $1#
+function ssl-cert-sha512() {
+/usr/bin/openssl x509 -noout -modulus -in "$1" | /usr/bin/openssl sha512
 }
 
-#Find SSL md5sum for private key via openssl, provide file-name as argument to this command, as $1#
-function ssl-key-md5() {
-sudo /usr/bin/openssl rsa -noout -modulus -in "$1" | /usr/bin/openssl md5
+#Find SSL sha512sum for private key via openssl, provide file-name as argument to this command, as $1#
+function ssl-key-sha512() {
+/usr/bin/openssl rsa -noout -modulus -in "$1" | /usr/bin/openssl sha512
 }
 
-#Find SSL md5sum for CSR via openssl, provide file-name as argument to this command, as $1#
-function ssl-csr-md5() {
-sudo /usr/bin/openssl req -noout -modulus -in "$1" | /usr/bin/openssl md5
+#Find SSL sha512sum for CSR via openssl, provide file-name as argument to this command, as $1#
+function ssl-csr-sha512() {
+/usr/bin/openssl req -noout -modulus -in "$1" | /usr/bin/openssl sha512
 }
 
 #-----------------#
