@@ -17,6 +17,8 @@ natqe.reload
 redhat.vscode-commons
 redhat.vscode-yaml
 Shan.code-settings-sync
+shopify.ruby-extensions-pack
+streetsidesoftware.code-spell-checker
 timonwong.shellcheck
 vscode-icons-team.vscode-icons
 wholroyd.jinja
