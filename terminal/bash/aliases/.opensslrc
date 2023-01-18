@@ -31,5 +31,3 @@ function ssl-key-sha512() {
 function ssl-csr-sha512() {
 /usr/bin/openssl req -noout -modulus -in "$1" | /usr/bin/openssl sha512
 }
-
-#-----------------#
