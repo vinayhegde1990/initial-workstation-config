@@ -1,0 +1,27 @@
+#! /bin/bash
+
+#IP Networking functions#
+#-----------------------#
+#Free IP finder, use desired subnet as argument to this command, i.e: $1#
+function check-free-ips() {
+for i in $(sudo nmap -sP "$1" | /usr/bin/grep -i 'Nmap scan report for' | awk '{print $5}') ;do ping -c 1 "$i";done | /usr/bin/grep from
+}
+
+#Find Your Public IP#
+alias public-ip='/usr/bin/curl https://ipinfo.io/ip'
+
+#IP Count#
+function count-ip() {
+/sbin/ifconfig | /usr/bin/grep -Ev '(inet6|127)' | grep en0 | awk -F: '{print $2}' | cut -d' ' -f1
+}
+
+#Summarize A records with TTL for multiple domains passed as space-separated arguments
+function dns-list-address-records() {
+for domains in "$@"; do /usr/bin/dig +noall +answer "$domains" | bat -l yaml ; done
+}
+
+#Internet Check
+function internet-check() {
+/sbin/ping 8.8.8.8
+}
+#---------------------#

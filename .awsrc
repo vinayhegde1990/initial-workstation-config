@@ -1,0 +1,12 @@
+#! /bin/bash
+#AWS Shortcuts
+#------------#
+function aws-infra-list () {
+$(command -v aws) ec2 describe-instances --filters  "Name=instance-state-name,Values=running" --query "Reservations[].Instances[].[ [Tags[?Key=='Name'].Value][0][0],PublicIpAddress,State.Name ]"
+}
+
+function aws-ecr-docker-login () {
+profile_name="$1"
+ecr_registry_url="$(aws ecr get-authorization-token --output text --profile "$profile_name" | cut -f4)"
+aws ecr get-login-password --profile "$profile_name" | docker login --password-stdin -u AWS "$ecr_registry_url"
+}
