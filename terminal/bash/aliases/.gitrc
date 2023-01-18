@@ -1,18 +1,21 @@
 #! /bin/bash
+
 #Git Shortcuts#
 #-------------#
+
+export PS1="\u \W\[\033[32m\]\$(parse-git-branch)\[\033[00m\] $ "
+
 # Setting upstream on creating a new branch in any GIT repo
 function git-new-upstream () {
-git push --set-upstream origin "$(git rev-parse --abbrev-ref HEAD)"
+  git push --set-upstream origin "$(git rev-parse --abbrev-ref HEAD)"
 }
 
 # Check if branch on local exists on remote, provide branch name as $1
 function git-remote-check () {
-git ls-remote --heads origin "$1"
+  git ls-remote --heads origin "$1"
 }
 
 # Git branch on iTerm2 prompt, works ONLY in Git repo folders
 function parse-git-branch() {
-git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
-export PS1="\u \W\[\033[32m\]\$(parse-git-branch)\[\033[00m\] $ "
