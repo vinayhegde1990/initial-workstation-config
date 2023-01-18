@@ -1,3 +1,4 @@
 syntax on
+set number
 colorscheme hybrid_reverse
-highlight LineNr ctermfg=44 guifg=DarkGrey
+highlight LineNr ctermfg=yellow cterm=bold guifg=DarkGrey
