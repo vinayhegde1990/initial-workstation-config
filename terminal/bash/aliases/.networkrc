@@ -1,5 +1,4 @@
 #! /bin/bash
-
 #IP Networking functions#
 #-----------------------#
 #Free IP finder, use desired subnet as argument to this command, i.e: $1#
@@ -24,4 +23,3 @@ for domains in "$@"; do /usr/bin/dig +noall +answer "$domains" | bat -l yaml ; d
 function internet-check() {
 /sbin/ping 8.8.8.8
 }
-#---------------------#
