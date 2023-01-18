@@ -3,16 +3,16 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
-# Source .rc files from 1 directory
+# Source .rc files from 1 alias directory
 if [ -d "$HOME"/aliases/ ]; then
 	for file in "$HOME"/aliases/.*rc*; do
         . "$file"
     done
 fi
 
-########################
-# Linux Based OS Aliases 
-########################
+##################
+# Linux OS Aliases 
+##################
 
 #Generic Commands#
 alias cp='cp -pvr'
@@ -71,9 +71,9 @@ function fix-ssh-conn () {
 sudo netstat -ntulpa | $(command -v grep) "[s]shd:" | awk '{ if ($3 =="0") print $7}' | cut -d / -f1 | $(command -v xargs) sudo kill
 }
 
-#######################
-# Mac OSX Based Aliases
-#######################
+#################
+# Mac OSX Aliases
+#################
 
 # Deleting leftovers left by brew cask uninstall $PKGNAME - specify in $1#
 function delete-cask() {
