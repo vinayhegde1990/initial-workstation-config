@@ -1,10 +1,11 @@
 #! /bin/bash
+
 # Docker Shortcuts
 #---------------#
 function dockertags () {
-$(which curl) -sS "https://registry.hub.docker.com/v1/repositories/$1/tags" | jq '.[]["name"]' | cut -d'"'| sort -n
+  $(command -v curl) -sS "https://registry.hub.docker.com/v1/repositories/$1/tags" | jq '.[]["name"]' | cut -d'"'| sort -n
 }
 
 function docker-inspect-images() {
-$(command -v docker) inspect "$@" --format "{{.RepoTags}} {{.Architecture}}"
+  $(command -v docker) inspect "$@" --format "{{.RepoTags}} {{.Architecture}}"
 }
