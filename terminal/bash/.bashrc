@@ -53,12 +53,12 @@ $(command -v ls) -dlht .*
 
 # View only hidden files
 function view-hidden-files () {
-$(command -v ls) -dlht "$1/".* | $(command -v grep) ^-
+$(command -v ls) -dlht "$1"/.* | $(command -v grep) ^-
 } 
 
 # View only hidden folders
 function view-hidden-folders () {
-$(command -v ls) -dlht "$1/".* | $(command -v grep) ^d
+$(command -v ls) -dlht "$1"/.* | $(command -v grep) ^d
 }
 
 # Kill CopyQ Clipboard Manager when it goes unresponsive (ONLY when scissor icon doesn't open)
