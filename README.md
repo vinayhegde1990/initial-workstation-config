@@ -15,7 +15,6 @@ Initial Workstation Config
     - [TMux Aliases](#using-tmux-aliases)
 - [Contributing](Contributing.md)
 - [References](#references)
-    - [Mac OS X](Mac-OS-X.md)
     - [Linux OS](Linux-OS.md)
 
 ## What is this about?
