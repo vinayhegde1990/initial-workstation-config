@@ -4,6 +4,7 @@ ccleaner
 copyq
 dbglass
 docker
+drawio
 flash-player
 firefox
 google-chrome
