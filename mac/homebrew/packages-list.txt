@@ -16,6 +16,7 @@ multi-git-status
 ncdu
 nmap
 oathtool
+powershell
 pwgen
 shellcheck
 rsync
