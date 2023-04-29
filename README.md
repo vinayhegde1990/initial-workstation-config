@@ -30,8 +30,8 @@ but it should work seamlessly on any variants lower or higher than the above.
 
 ## Pre-Requisites
 1. A terminal app like **Linux Terminal**, **iTerm2**, **Tabby**
-2. Any shell like Bash, Zsh, PowerShell or equivalent.
-3. An IDE like [VSCode](https://code.visualstudio.com/) | [Atom Editor](https://atom.io)
+2. Any shell like Bash, Zsh or equivalent.
+3. An IDE like [VSCode](https://code.visualstudio.com/)
 4. SSH Keys
 5. Git
 6. GitHub Access
@@ -39,7 +39,7 @@ but it should work seamlessly on any variants lower or higher than the above.
 
 
 ## Getting Ready
-1. If you use a Linux OS such as Ubuntu, Fedora, OpenSUSE or any similar ones OR Mac OS X or any of its variants, it will usually have a built-in shell with a terminal application to access it.
+1. If you use a Linux OS such as Ubuntu, Fedora, OpenSUSE etc.. OR Mac OS X, it will usually have a built-in shell with a terminal application to access it.
 2. Obtaining VIM is as easy as mentioned in this **[website](https://www.sitepoint.com/getting-started-vim/)**
 3. Tmux can be installed via this **[document](https://howchoo.com/g/ytkwotvkztq/using-the-iterm-2-and-tmux-integration)**.
 4. You can follow the steps [**here**](https://medium.com/risan/upgrade-your-ssh-key-to-ed25519-c6e8d60d3c54) to generate SSH keys.
@@ -55,7 +55,7 @@ but it should work seamlessly on any variants lower or higher than the above.
 
 
 ## Using Shell Aliases
-1.  Copy all the files from the `.bash_profile .bashrc` in the downloaded git repo  to your home directory.
+1.  Copy all the files from the `aliases, .bash_profile, .bashrc` in the downloaded git repo  to your home directory.
 2.  Run the `source ~/.bash_profile && source ~/.bashrc` to get the Bash aliases in effect.
 3.  Alternatively, you can also close all Shell sessions and restart them to achieve the same.
 
