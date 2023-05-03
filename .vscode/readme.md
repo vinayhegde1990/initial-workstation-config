@@ -1,8 +1,8 @@
 | UI Tweaks                                                                             | Comment                                                                             |
 |:-------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|
-| [VSCode-Icons](https://github.com/vscode-icons/vscode-icons)                          |                                                                                     |
-| [Default-Terminal-App](https://stackoverflow.com/a/38494284)                          |                                                                                     |
-| [Filesize](https://marketplace.visualstudio.com/items?itemName=mkxml.vscode-filesize) |                                                                                     |
+| [VSCode-Icons](https://github.com/vscode-icons/vscode-icons)                          | Well defined & coloured UI with `vscode-icons`                                     |
+| [Default-Terminal-App](https://stackoverflow.com/a/38494284)                          | Can be set to default or `iTerm2`                                                   |
+| [Filesize](https://marketplace.visualstudio.com/items?itemName=mkxml.vscode-filesize) |  Shows filesize correctly like `ls` command                                         |
 | **Fonts**                                                                             |                                                                                     |
 | [Fira Code](https://github.com/tonsky/FiraCode)                                       | Good spacing & visuals on Laptop                                                    |
 | [DejaVuSansMono](https://dejavu-fonts.github.io/Download.html)                        | Renders on Laptop                                                                   |
