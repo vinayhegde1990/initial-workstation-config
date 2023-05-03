@@ -1,0 +1,19 @@
+{
+    "telemetry.telemetryLevel": "off",
+    "editor.fontSize": 16,
+    "editor.fontFamily": "DejaVuSansMono, Menlo, Monaco, 'Courier New', monospace",
+    "workbench.startupEditor": "none",
+    "editor.guides.indentation": false,
+    "explorer.confirmDelete": false,
+    "redhat.telemetry.enabled": false,
+    "editor.minimap.enabled": false,
+    "workbench.editor.untitled.hint": "hidden",
+    "go.toolsManagement.autoUpdate": true,
+    "oneDarkPro.vivid": true,
+    "oneDarkPro.bold": true,
+    "hediet.vscode-drawio.resizeImages": null,
+    "powershell.integratedConsole.showOnStartup": false,
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.explorerKind": "external"
+}
