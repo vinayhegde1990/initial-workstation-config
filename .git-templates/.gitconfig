@@ -1,22 +1,28 @@
+[core]
+    autocrlf = true
+    whitespace = cr-at-eol
+    safecrlf = false
+
 [user]
     name = Vinay Hegde
     email = vinay.hegde@
+    signingKey = 
 
 [commit]
-    template = /Users/vinay.hegde/.git-templates/commit-msg-template
+    template = /Users/vinayhegde/.git-templates/commit-msg-template
 
 [color "branch"]
-    current = red bold ul
-    local = yellow dim
-    remote = "#00CED1"
+    current = "#FF0000 ul" # hex code red underlined
+    local = "#8B8000" # hex code dark yellow
+    remote = "#00CED1" # hex code dark turquoise
 
 [color "diff"]
-    meta = "#FFD700" #hex code yellow
-    frag = "#DA70D6" #hex code orchid
-    old = red bold
-    new = "#32CD32" # hex code limegreen
+    meta = "#FFD700" # hex code golden yellow
+    frag = "#DA70D6" # hex code orchid
+    old = "#FF0000" # hex code red
+    new = "#32CD32"  # hex code limegreen
 
 [color "status"]
-    added = yellow
-    changed = green
-    untracked = cyan
+    added = "#FFD700" # hex code golden yellow
+    changed = "#12AD2B" # hex code parrot green
+    untracked = "#00FFFF" # hex code cyan
