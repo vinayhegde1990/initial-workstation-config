@@ -18,6 +18,5 @@ paintbrush
 postman
 rectangle
 slack
-typora
 visual-studio-code
 vlc
