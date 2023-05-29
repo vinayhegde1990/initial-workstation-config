@@ -22,53 +22,55 @@ This is a Git repository to help you setup your new workstation for commonly use
 
 The current steps cover some well known OSes used for development and have been tested on
 1. Mac OS X (**Monterey: 12.3.1**)
-2. Ubuntu (**Focal Fossa: 20.04 LTS**)
-3. CentOS 7 (**7.5-1804**)
-4. Fedora Workstation **28**
+1. Ubuntu (**Focal Fossa: 20.04 LTS**)
+1. CentOS 7 (**7.5-1804**)
+1. Fedora Workstation **28**
 but it should work seamlessly on any variants lower or higher than the above.
 
 
 ## Pre-Requisites
 1. A terminal app like **Linux Terminal**, **iTerm2**, **Tabby**
-2. Any shell like Bash, Zsh or equivalent.
-3. An IDE like [VSCode](https://code.visualstudio.com/)
-4. SSH Keys
-5. Git
-6. GitHub Access
-7. Tmux
+1. Any shell like Bash, Zsh, PowerShell or equivalent.
+1. An IDE like [VSCode](https://code.visualstudio.com/)
+1. SSH | GPG Keys
+1. Git
+1. GitHub Access
+1. Tmux
 
 
 ## Getting Ready
-1. If you use a Linux OS such as Ubuntu, Fedora, OpenSUSE etc.. OR Mac OS X, it will usually have a built-in shell with a terminal application to access it.
-2. Obtaining VIM is as easy as mentioned in this **[website](https://www.sitepoint.com/getting-started-vim/)**
-3. Tmux can be installed via this **[document](https://howchoo.com/g/ytkwotvkztq/using-the-iterm-2-and-tmux-integration)**.
-4. You can follow the steps [**here**](https://medium.com/risan/upgrade-your-ssh-key-to-ed25519-c6e8d60d3c54) to generate SSH keys.
-5. As per your OS (*Mac / Linux / Windows*), please follow these **[steps](https://linode.com/docs/development/version-control/how-to-install-git-on-linux-mac-and-windows/)** to install Git.
-6. Please add your SSH keys (*generated in step 4*) to GitHub via this **[page](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)**
+As per your OS (*Mac / Linux / Windows*):
+
+1. Linux OS like Ubuntu, Fedora OR Mac OS X, have a built-in shell with a terminal application. The Windows equivalent would be PowerShell.
+1. Obtaining VIM is as easy as mentioned in this **[website](https://www.sitepoint.com/getting-started-vim/)**
+1. You can **[generate SSH keys](https://medium.com/risan/upgrade-your-ssh-key-to-ed25519-c6e8d60d3c54)** and similarly **[create GPG keys](https://yanhan.github.io/posts/2017-09-27-how-to-use-gpg-to-encrypt-stuff/)**.
+1. Please follow these **[steps](https://linode.com/docs/development/version-control/how-to-install-git-on-linux-mac-and-windows/)** to install Git.
+1. Then, **[add SSH keys](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)** and then **[GPG keys](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification)** to Github
+1. Tmux can be installed via this **[document](https://howchoo.com/g/ytkwotvkztq/using-the-iterm-2-and-tmux-integration)**.
 
 ## How to Use it?
 
 1.  On a terminal, clone this repo locally using 
   `git clone git@github.com:vinayhegde1990/initial-workstation-config.git`
-2.  Change your directory to the downloaded repo
+1.  Change your directory to the downloaded repo
   `cd initial-workstation-config`
 
 
 ## Using Shell Aliases
 1.  Copy all the files from the `aliases, .bash_profile, .bashrc` in the downloaded git repo  to your home directory.
-2.  Run the `source ~/.bash_profile && source ~/.bashrc` to get the Bash aliases in effect.
-3.  Alternatively, you can also close all Shell sessions and restart them to achieve the same.
+1.  Run the `source ~/.bash_profile && source ~/.bashrc` to get the Bash aliases in effect.
+1.  Alternatively, you can also close all Shell sessions and restart them to achieve the same.
 
 
 ## Using Vim Aliases
 1. Copy `.vimrc` from downloaded repo to **$HOME** & ensure `.vim` folder (_with all files_) exists there as well.
-2. If you already have a VIM process running, you can go into Escape mode by pressing `Esc`, type `:` and then write `source:~/.vimrc`
-3. For a new VIM session, the changes will automatically apply themselves.
+1. If you already have a VIM process running, you can go into Escape mode by pressing `Esc`, type `:` and then write `source:~/.vimrc`
+1. For a new VIM session, the changes will automatically apply themselves.
 
 ## Using Tmux Aliases
 1. Copy all the files from the `.tmux/` in the downloaded git repo to your home directory.
-2. If you already have a Tmux process running, you can go into Escape mode by pressing `Esc`, type `:` and then write `source-file :~/.tmux/tmux.conf`
-3. For a new Tmux session, the changes will automatically apply themselves.
+1. If you already have a Tmux process running, you can go into Escape mode by pressing `Esc`, type `:` and then write `source-file :~/.tmux/tmux.conf`
+1. For a new Tmux session, the changes will automatically apply themselves.
 
 ## References
-Cheers to respective maintainers of cited resources without which creating this repo would've been impossible.
+Cheers to respective maintainers of cited resources that helped in creating this repo.
