@@ -1,6 +1,7 @@
 adamwalzer.string-converter
 bierner.markdown-mermaid
 christian-kohler.path-intellisense
+DavidAnson.vscode-markdownlint
 eamodio.gitlens
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
@@ -16,7 +17,6 @@ ms-vscode.powershell
 natqe.reload
 redhat.vscode-commons
 redhat.vscode-yaml
-Shan.code-settings-sync
 shopify.ruby-extensions-pack
 streetsidesoftware.code-spell-checker
 timonwong.shellcheck
