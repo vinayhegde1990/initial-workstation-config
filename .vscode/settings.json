@@ -1,4 +1,7 @@
 {
+    "diffEditor.ignoreTrimWhitespace": true,
+    "diffEditor.renderIndicators": true,
+    "diffEditor.renderSideBySide": true,
     "editor.fontSize": 16,
     "editor.fontFamily": "DejaVuSansMono, Menlo, Monaco, 'Courier New', monospace",
     "editor.guides.indentation": false,
@@ -17,5 +20,5 @@
     "workbench.colorTheme": "Default Dark+",
     "workbench.iconTheme": "vscode-icons",
     "workbench.startupEditor": "none",
-    "workbench.editor.untitled.hint": "hidden",
+    "workbench.editor.untitled.hint": "hidden"
 }
