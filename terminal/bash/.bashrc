@@ -84,5 +84,5 @@ function delete-cask() {
 
 # Upgrade all casks
 function upgrade-all-casks() {
-  for casks in $(brew list --cask | xargs -n1); do brew upgrade "$casks" --cask ; done
+  for casks in $($(command -v brew) list --cask | xargs -n1); do $(command -v brew) upgrade "$casks" --cask ; done && $(command -v brew) cleanup
 }
