@@ -1,5 +1,6 @@
 awscli
 ansible
+bash
 bash-completion
 bat
 coreutils
