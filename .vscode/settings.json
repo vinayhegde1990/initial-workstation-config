@@ -21,5 +21,6 @@
     "workbench.colorTheme": "Default Dark+",
     "workbench.iconTheme": "vscode-icons",
     "workbench.startupEditor": "none",
-    "workbench.editor.untitled.hint": "hidden"
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.editor.empty.hint": "hidden"
 }

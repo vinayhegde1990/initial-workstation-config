@@ -1,13 +1,15 @@
 adobe-acrobat-reader
+android-file-transfer
+android-platform-tools
+brave-browser
 appcleaner
 ccleaner
 copyq
 dbglass
+devdocs
 docker
 drawio
-flash-player
 firefox
-google-chrome
 google-cloud-sdk
 iterm2
 libreoffice
