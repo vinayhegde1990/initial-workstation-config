@@ -21,3 +21,8 @@ function git-remote-check () {
 function parse-git-branch() {
   $(command -v git) branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
+
+# Delete all local branches already merged
+function git-branch-cleanup() {
+  $(command -v git) branch --merged | $(command -v grep) -v "\*" | $(command -v xargs) -n 1 git branch -d
+}
