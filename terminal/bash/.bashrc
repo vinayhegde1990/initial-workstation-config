@@ -40,6 +40,11 @@ function ps-grep-headers() {
   $(command -v ps) aux | head -1 && $(command -v ps) aux | $(command -v grep) -iE "[^]]$1" --color
 }
 
+# Filter ps output for vital metrics of process, sorted by +/- via pcpu/pmem 
+function ps-filter-usage() {
+  $(command -v ps) -C "$1" -o pid,time,cmd,pcpu,pmem,stime,etime --sort "$2"
+}
+
 # Find file in current DIR by md5sum, use known md5sum as argument to this command, i.e: $1
 function find-md5sum() {
   $(command -v find) . -type f | $(command -v xargs) md5sum | $(command -v grep) -v .git | $(command -v grep) "$1"
