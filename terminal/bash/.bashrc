@@ -58,12 +58,12 @@ function view-hidden-all() {
   $(command -v ls) -dlht .*
 }
 
-# View only hidden files
+# View only hidden files, use specific directory path or $PWD
 function view-hidden-files () {
-  $(command -v ls) -dlht "$1"/.* | $(command -v grep) ^-
+  $(command -v ls) -dlht "$1"/.* | $(command -v grep) --extended-regexp "(^-|^l)"
 } 
 
-# View only hidden folders
+# View only hidden folders, use specific directory path or $PWD
 function view-hidden-folders () {
   $(command -v ls) -dlht "$1"/.* | $(command -v grep) ^d
 }
