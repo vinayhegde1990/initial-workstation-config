@@ -219,6 +219,7 @@ terminal:
   ligatures: true
   font: Cascadia Code
   customColorSchemes: []
+  autoOpen: false
 ssh:
   warnOnClose: true
 clickableLinks: {}
