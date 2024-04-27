@@ -2,6 +2,7 @@
     autocrlf = true
     whitespace = cr-at-eol
     safecrlf = false
+    sshCommand = 'C:\\Windows\\System32\\OpenSSH\\ssh.exe'
 
 [user]
     name = Vinay Hegde
