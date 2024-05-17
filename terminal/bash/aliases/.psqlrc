@@ -1,0 +1,10 @@
+# PostgreSQL Aliases#
+\encoding unicode
+\pset expanded auto
+\pset null '(null)'
+\set COMP_KEYWORD_CASE preserve-upper
+\set HISTFILE ~/.psql_history- :HOST - :DBNAME
+\set HISTSIZE 20000
+\set ON_ERROR_ROLLBACK interactive
+\set VERBOSITY verbose
+\timing
