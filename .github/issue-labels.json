@@ -1,0 +1,62 @@
+[
+    {
+      "color": "2E7D32",
+      "description": "Work was started and finished",
+      "name": "Status: Completed"
+    },
+    {
+      "color": "666699",
+      "description": "Work was started, is actively being worked on",
+      "name": "Status: In Progress"
+    },
+    {
+      "color": "ff0000",
+      "description": "Work started but needs to be finished",
+      "name": "Status: Pending"
+    },
+    {
+      "color": "2962FF",
+      "description": "Work to be picked up next",
+      "name": "Status: To-Do"
+    },
+    {
+      "color": "CD0402",
+      "description": "Any bugs/error seen when running code",
+      "name": "Type: Bug"
+    },
+    {
+      "color": "FFDC00",
+      "description": "Effort required to keep code smooth",
+      "name": "Type: Maintenance"
+    },
+    {
+      "color": "ab17d1",
+      "description": "Effort required to learn a new topic",
+      "name": "Type: Research"
+    },
+    {
+      "color": "96CA2D",
+      "description": "Work to deploy a new feature",
+      "name": "Type: Feature"
+    },
+    {
+      "color": "CD0402",
+      "description": "Urgency level is P0",
+      "name": "Priority: Critical"
+    },
+    {
+      "color": "FF8C00",
+      "description": "Urgency level is P1",
+      "name": "Priority: High"
+    },
+    {
+      "color": "FFDC00",
+      "description": "Urgency level is P2",
+      "name": "Priority: Medium"
+    },
+    {
+      "color": "2E7D32",
+      "description": "Urgency level is P3",
+      "name": "Priority: Low"
+    }
+  ]

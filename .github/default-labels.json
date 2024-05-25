@@ -1,0 +1,26 @@
+[
+	{
+		"name": "bug"
+	},
+	{
+		"name": "duplicate"
+	},
+	{
+		"name": "enhancement"
+	},
+	{
+		"name": "good first issue"
+	},
+	{
+		"name": "help wanted"
+	},
+	{
+		"name": "invalid"
+	},
+	{
+		"name": "question"
+	},
+	{
+		"name": "wontfix"
+	}
+]
