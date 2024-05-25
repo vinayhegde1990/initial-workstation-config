@@ -3,7 +3,7 @@
     "diffEditor.renderIndicators": true,
     "diffEditor.renderSideBySide": true,
     "editor.fontSize": 16,
-    "editor.fontFamily": "DejaVuSansMono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "Fira Code, DejaVuSansMono, Menlo, Monaco, 'Courier New', monospace",
     "editor.guides.indentation": false,
     "editor.minimap.enabled": false,
     "editor.wordWrap": "on",

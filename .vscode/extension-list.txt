@@ -12,10 +12,8 @@ mrmlnc.vscode-duplicate
 ms-azuretools.vscode-docker
 ms-kubernetes-tools.vscode-kubernetes-tools
 ms-python.python
-ms-python.vscode-pylance
 ms-vscode.powershell
 natqe.reload
-redhat.vscode-commons
 redhat.vscode-yaml
 shopify.ruby-extensions-pack
 streetsidesoftware.code-spell-checker
