@@ -1,10 +1,9 @@
+# Initial Workstation Config
+
 > **Note**:
-> Please read the below instructions carefully to extract the best result from this repo.
+> _Please read the below instructions carefully to extract the best result from this repo._
 
-Initial Workstation Config
-======================
-
-# Table of Contents
+## Table of Contents
 
 - [What is this about?](#what-is-this-about)
 - [Pre-requisites](#pre-requisites)
@@ -55,7 +54,7 @@ As per your OS (_Mac / Linux / Windows_), its associated shell and terminal:
 
 ## How to Setup?
 
-1. From the native terminal app of your OS, 
+1. From the native terminal app of your OS,
    - Linux &rarr; Install **[Terminal](https://manpages.ubuntu.com/manpages/lunar/en/man1/gnome-terminal.1.html)** via `apt-get install gnome-terminal`
    - Mac OS X &rarr; Install **[iTerm2](https://iterm2.com/)** via `brew install iterm2`
    - Windows &rarr; Install **[Tabby](https://tabby.sh/)** via `choco install tabby`
