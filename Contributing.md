@@ -1,4 +1,4 @@
-<h1>Contributions</h1> 
+<h1>Contributions</h1>
 
 <h4> When contributing here, please ensure the following before making a pull request: </h4>
 
@@ -10,9 +10,7 @@
 - The pull request needs to have a descriptive title.
 - Make a **separate** pull request for each of the sections or sub-sections.
 
-
-
-<h2>Creating a Pull Request</h2> 
+<h2>Creating a Pull Request</h2>
 
 1. Fork the repo and create your branch from `master`.
 1. Make the desired changes → add → commit → push your files to the branch.
