@@ -15,6 +15,7 @@ iterm2
 libreoffice
 macpass
 mark-text
+microsoft-teams
 numi
 paintbrush
 postman
