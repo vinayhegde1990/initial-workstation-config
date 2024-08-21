@@ -4,8 +4,8 @@ _A ready reckoner of all links used to source some excellent tools & customizati
 
 ## Tested On
 
-Windows 10 (**Noble Numbat: 24.04 LTS**)
-Windows 11 (**7.5-1804**)
+1. Windows 10 (**Version 19045.4780**)
+1. Windows 11 (**Version 10.0.22631 Build 22631**)
 
 ### Tooling
 
