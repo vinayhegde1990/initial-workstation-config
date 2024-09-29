@@ -1,9 +1,9 @@
 adamwalzer.string-converter
 bierner.markdown-mermaid
 christian-kohler.path-intellisense
-DavidAnson.vscode-markdownlint
+davidAnson.vscode-markdownlint
 eamodio.gitlens
-EditorConfig.EditorConfig
+editorConfig.editorConfig
 esbenp.prettier-vscode
 golang.go
 hashicorp.terraform
@@ -16,6 +16,7 @@ ms-vscode.powershell
 natqe.reload
 redhat.vscode-yaml
 shopify.ruby-extensions-pack
+sonarsource.sonarlint-vscode
 streetsidesoftware.code-spell-checker
 timonwong.shellcheck
 vscode-icons-team.vscode-icons
