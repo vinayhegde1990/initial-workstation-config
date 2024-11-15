@@ -7,8 +7,10 @@ function check-free-ips() {
   for ip in $(sudo nmap -sP "$1" | "$(command -v grep)" -i 'Nmap scan report for' | awk '{print $5}') ; do $(command -v ping) -c 1 "$ip"; done | $(command -v grep) from
 }
 
-# Find Your Public IP#
-  alias public-ip='/usr/bin/curl https://ipinfo.io/ip'
+# Find Your Public IP
+function public-ip() {
+  $(command -v curl) https://ipinfo.io/ip
+}
 
 # IP Count#
 function count-ip() {
