@@ -6,11 +6,15 @@
 
 [user]
     name = Vinay Hegde
-    email = vinay.hegde@
-    signingKey = 
+    email = 19818985+vinayhegde1990@users.noreply.github.com
+    signingKey = A0FCFA1F00F29CD0
 
 [commit]
-    template = /Users/vinayhegde/.git-templates/commit-msg-template
+    gpgsign = true
+    template = C:\\Users\\Vinay.HOME-PC\\.git-templates\\commit-msg-template
+
+[fetch]
+    prune = true
 
 [color "branch"]
     current = "#FF0000 ul" # hex code red underlined
