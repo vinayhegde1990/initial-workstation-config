@@ -1,13 +1,17 @@
 {
+    "breadcrumbs.enabled": true,
     "diffEditor.ignoreTrimWhitespace": true,
     "diffEditor.renderIndicators": true,
     "diffEditor.renderSideBySide": true,
+    "editor.cursorBlinking": "phase",
     "editor.fontSize": 16,
     "editor.fontFamily": "Fira Code, DejaVuSansMono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.formatOnSave": true,
     "editor.guides.indentation": false,
     "editor.minimap.enabled": false,
     "editor.wordWrap": "on",
     "explorer.confirmDelete": false,
+    "files.insertFinalNewline": true,
     "go.toolsManagement.autoUpdate": true,
     "gitlens.telemetry.enabled": false,
     "hediet.vscode-drawio.resizeImages": null,
@@ -15,11 +19,11 @@
     "oneDarkPro.bold": true,
     "powershell.integratedConsole.showOnStartup": false,
     "redhat.telemetry.enabled": false,
+    "telemetry.telemetryLevel": "off",
     "terminal.explorerKind": "external",
     "terminal.external.osxExec": "iTerm.app",
-    "telemetry.telemetryLevel": "off",
     "workbench.colorTheme": "Default Dark+",
+    "workbench.editor.empty.hint": "hidden",
     "workbench.iconTheme": "vscode-icons",
-    "workbench.startupEditor": "none",
-    "workbench.editor.empty.hint": "hidden"
+    "workbench.startupEditor": "none"
 }
