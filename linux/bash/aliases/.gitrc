@@ -3,9 +3,9 @@
 # Git Shortcuts
 #-------------#
 
-LIME_GREEN="$( $(command -v tput) setaf 148)"
-GREY="$( $(command -v tput) setaf 253)"
-export PS1="\h:\u \W\${LIME_GREEN}\$(parse-git-branch)\${GREY} $ "
+LIME_GREEN="$($(command -v tput) setaf 148)"
+GREY="$($(command -v tput) setaf 253)"
+export PS1="\h:\u \W \[$LIME_GREEN\]\$(parse-git-branch)\[$GREY\]$ "
 
 # Setting upstream on creating a new branch in any GIT repo
 function git-new-upstream () {
@@ -19,7 +19,7 @@ function git-remote-check () {
 
 # Git branch on iTerm2 prompt, works ONLY in Git repo folders
 function parse-git-branch() {
-  $(command -v git) branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+  $(command -v git) branch --show-current 2>/dev/null
 }
 
 # Delete all local branches already merged
