@@ -1,0 +1,14 @@
+#! /bin/bash
+#################
+# Mac OSX Aliases
+#################
+
+# Deleting leftovers left by brew cask uninstall $PKGNAME - specify in $1
+function delete-cask() {
+  $(command -v find) ~/Library/ -iname "*$1*" -print0 | $(command -v xargs) -0 rm -vrf
+}
+
+# Upgrade all casks
+function upgrade-all-casks() {
+  for casks in $($(command -v brew) list --cask | xargs -n1); do $(command -v brew) upgrade "$casks" --cask ; done && $(command -v brew) cleanup
+}
