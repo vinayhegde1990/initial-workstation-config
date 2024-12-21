@@ -1,3 +1,4 @@
+#! /bin/bash
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
@@ -16,10 +17,6 @@ fi
 
 # Shell Command aliases
 #======================#
-alias cp='cp -pvr'
-alias grep='grep -i --color=auto'
-alias rm='rm -v'
-alias mv='mv -v'
 alias ek='ssh-add -K ~/.ssh/id_ed25519'
 
 # Shell History Persistence
@@ -70,24 +67,10 @@ function view-hidden-folders () {
 
 # Kill CopyQ Clipboard Manager when unresponsive (ONLY when scissor icon doesn't open)
 function stop-copyq() {
-  pgrep -i "[c]opyq" | awk '{print $2}' | $(command -v xargs) kill
+  $(command -v pgrep) -i "[c]opyq" | awk '{print $2}' | $(command -v xargs) kill
 }
 
 # Kill unnecessary sshd-connections
 function fix-ssh-conn () {
   sudo netstat -ntulpa | $(command -v grep) "[s]shd:" | awk '{ if ($3 =="0") print $7}' | cut -d / -f1 | $(command -v xargs) sudo kill
-}
-
-#################
-# Mac OSX Aliases
-#################
-
-# Deleting leftovers left by brew cask uninstall $PKGNAME - specify in $1
-function delete-cask() {
-  $(command -v find) ~/Library/ -iname "*$1*" -print0 | $(command -v xargs) -0 rm -vrf
-}
-
-# Upgrade all casks
-function upgrade-all-casks() {
-  for casks in $($(command -v brew) list --cask | xargs -n1); do $(command -v brew) upgrade "$casks" --cask ; done && $(command -v brew) cleanup
 }
