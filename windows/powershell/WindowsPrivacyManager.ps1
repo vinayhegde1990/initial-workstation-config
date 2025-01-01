@@ -35,3 +35,7 @@ Set-ItemProperty -Path "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Capabilit
 # 6. Disable Windows Contacts Access
 Write-Host "Disable Windows Contacts Access" -ForegroundColor Yellow
 Set-ItemProperty -Path "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\contacts" -Name "Value" -Type String -Value "Deny"
+
+# 7. Disable Hibernation and remove Hiberfil.sys
+Write-Host "Disable Windows Hibernation" -ForegroundColor Yellow
+Set-ItemProperty -Path "HKLM\SYSTEM\CurrentControlSet\Control\Power" -Name "HibernateEnabled" -Type DWord -Value 0
