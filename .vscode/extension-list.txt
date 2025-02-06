@@ -1,4 +1,3 @@
-adamwalzer.string-converter
 bierner.markdown-mermaid
 christian-kohler.path-intellisense
 davidAnson.vscode-markdownlint
