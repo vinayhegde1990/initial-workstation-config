@@ -1,17 +1,22 @@
-<h1>Contributions</h1>
+# Contributions
 
-<h4> When contributing here, please ensure the following before making a pull request: </h4>
+## How to Contribute to this project?
 
-- The **section** or **sub-sections** you want to add do not already exist.
-- If they do, improvements of them are gladly welcome!
-- Please discuss your changes via an **[issue](https://github.com/vinayhegde1990/initial-workstation-config/issues)** before making it.
-- Post the above, place your links and or content correctly under the appropriate **section**.
-- If the **section** does not exist, feel free to create a new entry in table of contents.
-- The pull request needs to have a descriptive title.
-- Make a **separate** pull request for each of the sections or sub-sections.
+Please use any of the below issues to clarify your changes first before making it.
 
-<h2>Creating a Pull Request</h2>
+### Feature
+
+- First check for any open issues that already address the feature requirements you have.
+- If not, then use the [feature request template](.github/ISSUE_TEMPLATE/feature_request.md) with a title and clear description of the fields in it.
+
+### Bug
+
+- First check for any open issues that already address the bugs you have encountered.
+- If not, then use the [bug report template](.github/ISSUE_TEMPLATE/bug_report.md) with a title and clear description of the fields in it.
+
+#### Creating a Pull Request
 
 1. Fork the repo and create your branch from `master`.
-1. Make the desired changes → add → commit → push your files to the branch.
+1. Make the desired changes within the correct folders and/or sub-folders → add → commit → push your files to the branch.
 1. Create the [Pull Request via your preferred medium](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
+1. Make a **separate** pull request for either feature or bug. Do not combine them.

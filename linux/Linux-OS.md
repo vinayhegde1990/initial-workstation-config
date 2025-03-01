@@ -1,11 +1,10 @@
 # Linux OS
 
-_A ready reckoner of all links used to source some excellent tools & customizations for multiple Linux OS_
+_A ready reckoner of all links used to source some excellent tools & customizations for multiple Linux OS._
 
 ## Tested On
 
 Ubuntu (**Noble Numbat: 24.04 LTS**)
-CentOS 7 (**7.5-1804**)
 Fedora Workstation **28**
 
 ### Tooling

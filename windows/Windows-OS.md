@@ -1,11 +1,15 @@
 # Windows OS
 
-_A ready reckoner of all links used to source some excellent tools & customizations for Microsoft Windows OS_
+_A ready reckoner of all links used to source some excellent tools & customizations for Microsoft Windows OS._
 
 ## Tested On
 
 1. Windows 10 (**Version 19045.4780**)
 1. Windows 11 (**Version 10.0.22631 Build 22631**)
+
+### Windows Tips
+
+1. [Delete Windows.old folder to reclaim disk space](https://support.microsoft.com/en-us/topic/kb5012334-delete-the-windows-old-folder-using-storage-sense-in-the-settings-app-e12f9d84-ad7f-4780-9406-465670157f8e)
 
 ### Tooling
 
