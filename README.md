@@ -12,24 +12,16 @@
   - [TMux Aliases](#using-tmux-aliases)
 - [Contributing](Contributing.md)
 - [References](#references)
-  - [Linux OS](Linux-OS.md)
-  - [Windows OS](Windows-OS.md)
+  - [Linux OS](linux/Linux-OS.md)
+  - [Windows OS](windows/Windows-OS.md)
 
 ## What is this about?
 
-This is a Git repository to help you setup your new workstation for commonly used tools and make changes to them as you move ahead, using the power of Git & GitHub.
-
-The current steps cover some well known OSes used for development and have been tested on
-
-1. Mac OS X (**Sonoma: 14.6.1**)
-1. Ubuntu (**Noble Numbat: 24.04 LTS**)
-1. CentOS 7 (**7.5-1804**)
-1. Fedora Workstation **28**
-but it should work seamlessly on any variants lower or higher than the above.
+A Git repository to help you setup a new machine with commonly used Desktop/Development tools, shell aliase
 
 ## Pre-Requisites
 
-1. Any of the above OS with shells from Bash, Zsh or PowerShell respectively.
+1. Any OS like Linux, MacOS or Windows having Bash, Zsh or PowerShell respectively.
 1. SSH | GPG Keys. You can **[generate SSH keys](https://medium.com/risan/upgrade-your-ssh-key-to-ed25519-c6e8d60d3c54)** and similarly **[create GPG keys](https://yanhan.github.io/posts/2017-09-27-how-to-use-gpg-to-encrypt-stuff/)**.
 1. Then **[add SSH keys](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)** and **[GPG keys](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification)** to Github.
 1. Git and access to this GitHub repo. Please use **[install Git](https://linode.com/docs/development/version-control/how-to-install-git-on-linux-mac-and-windows/)**

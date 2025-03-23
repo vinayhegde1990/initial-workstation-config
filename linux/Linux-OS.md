@@ -4,8 +4,10 @@ _A ready reckoner of all links used to source some excellent tools & customizati
 
 ## Tested On
 
-Ubuntu (**Noble Numbat: 24.04 LTS**)
-Fedora Workstation **28**
+1. Ubuntu (**Noble Numbat: 24.04 LTS**)
+1. Mac OS X (**Sonoma: 14.6.1**)
+
+but it should work seamlessly on any variants lower or higher than the above.
 
 ### Tooling
 
