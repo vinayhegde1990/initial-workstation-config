@@ -1,7 +1,7 @@
 awscli
 ansible
 bash
-bash-completion
+bash-completion@2
 bat
 coreutils
 docker-completion

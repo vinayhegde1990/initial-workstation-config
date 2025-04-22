@@ -5,7 +5,6 @@ brave-browser
 appcleaner
 ccleaner
 copyq
-dbglass
 devdocs
 docker
 drawio
