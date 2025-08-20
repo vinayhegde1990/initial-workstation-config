@@ -9,7 +9,7 @@ devdocs
 docker
 drawio
 firefox
-google-cloud-sdk
+gcloud-cli
 iterm2
 libreoffice
 macpass

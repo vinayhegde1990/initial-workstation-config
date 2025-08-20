@@ -25,6 +25,7 @@ tcptraceroute
 telnet
 terraform
 terraform-docs
+testssl
 tldr
 tmux
 wget
