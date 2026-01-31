@@ -20,5 +20,6 @@ paintbrush
 postman
 rectangle
 slack
+trilium-notes
 visual-studio-code
 vlc

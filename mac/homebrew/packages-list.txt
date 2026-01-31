@@ -17,14 +17,13 @@ multi-git-status
 ncdu
 nmap
 oathtool
+opentofu
 powershell
 pwgen
 shellcheck
 rsync
 tcptraceroute
 telnet
-terraform
-terraform-docs
 testssl
 tldr
 tmux
