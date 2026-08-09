@@ -7,7 +7,7 @@
 [user]
     name = Vinay Hegde
     email = 19818985+vinayhegde1990@users.noreply.github.com
-    signingKey = 83C34C08E24D2D63D73A5060AA530780B8036F5B
+    signingKey = E6725292BB375AB37A30BE99785491E0EC4A0A59
 
 [commit]
     gpgsign = true
